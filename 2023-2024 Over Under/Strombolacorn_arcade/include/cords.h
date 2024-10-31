@@ -1,0 +1,2 @@
+void cords();
+void batteryPercent();
