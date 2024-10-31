@@ -3,7 +3,7 @@ This is the repository storing the code of team 499A, Holy Stromboli, through th
 
 # 2023-2024 Over Under Code Explinations
 This year we started using the JAR template for the first time, our first program this season being `Jar_Acorn`
-: Dont ask me why we made 3 different program files, I dont remember why we did- it was probably because we were used to seperate files but 🤷
+Dont ask me why we made 3 different program files, I dont remember why we did- it was probably because we were used to seperate files but 🤷
 ## Jar Acorn
 This is the first program we made this season, we were mostly messing around and learning how the Jar Template works.
 It includes some code that was used in the 2022-2023 season Spin Up, such as the seperate arcade drive code- the rest of the spin up code has sadly been lost
