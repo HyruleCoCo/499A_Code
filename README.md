@@ -3,7 +3,8 @@ This is the repository storing the code of team 499A, Holy Stromboli, through th
 
 # 2023-2024 Over Under Code Explinations
 This year we started using the [JAR template](https://github.com/JacksonAreaRobotics/JAR-Template) for the first time, our first program this season being `Jar_Acorn`
-> Jar Template was developed by Jackson Area Robotics for vexcode, it includes a PID, Odometry, and a primitive autonomous selector- go to their github page to learn more!<br> <
+> Jar Template was developed by Jackson Area Robotics for vexcode, it includes a PID, Odometry, and a primitive autonomous selector- go to their github page to learn more!<br>
+
 Dont ask me why we made 3 different program files, I dont remember why we did- it was probably because we were used to seperate files but 🤷
 ## Jar Acorn
 
