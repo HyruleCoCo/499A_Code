@@ -1,0 +1,2 @@
+void tempControl();
+void tempAlert();
