@@ -24,4 +24,6 @@ This is mostly the same code that is in `Strombolacorn_arcade` with the main dif
 
 Gifclass is code from  jpearmans repository [vexcode-gifdemo](https://github.com/jpearman/vexcode-gifdemo) which allowes us to include gif files that actually run on our brain screen
 
+We also started using [path.jerryio](https://path.jerryio.com) to path out our autons, making it very simple to plan our autonomous programs
+
 # 2024-2025 High Stakes Code Explinations
