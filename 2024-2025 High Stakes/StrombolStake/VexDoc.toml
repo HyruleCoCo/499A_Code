@@ -1,4 +1,0 @@
-inline_comments = "//"
-multi_comments = ["/*", "*/"]
-ignored_dirs = ["vex", "JAR-Template", "include"]
-file_extensions = ["cpp", "c", "h"]
