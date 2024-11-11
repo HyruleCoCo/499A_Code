@@ -28,3 +28,16 @@ Gifclass is code from  jpearmans repository [vexcode-gifdemo](https://github.com
 We also started using [path.jerryio](https://path.jerryio.com) to path out our autons, making it very simple to plan our autonomous programs
 
 # 2024-2025 High Stakes Code Explinations
+
+## StrombolStakes
+This was our first code that we have used this season, we have Jar template, and gifDemo in it. However, we have decieded not to use it as alot of the code was overcomplicated
+
+## Strombol_Steaks
+This is the simpler version of StrombolStakes, the only real difference in what is in the codes is that we do not have gifDemo in this one. We have also tried to simplify the code as much as possible
+
+#Reference Doccuments to learn about what we have
+- [Odometry Math](https://wiki.purduesigbots.com/software/odometry)
+- [Coding Odometry](https://gist.github.com/Tropix126/7fbf7d1b3ede557b76f3656db8af3fd3)
+- [Original Pilons Odometry Doccument](http://thepilons.ca/wp-content/uploads/2018/10/Tracking.pdf)
+- [Coding a Pid](https://www.vexforum.com/t/vexcode-pid-tutorial/73706)    Watching the video will give a good understanding of how to code a PID
+- [Tuning a PID and more PID explinations](https://wiki.purduesigbots.com/software/control-algorithms/pid-controller)
