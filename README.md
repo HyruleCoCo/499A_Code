@@ -37,8 +37,8 @@ This is the simpler version of StrombolStakes, the only real difference in what 
 
 # Reference Doccuments to learn about what we have
 - [Odometry Math](https://wiki.purduesigbots.com/software/odometry)
--   
 - [Coding Odometry](https://gist.github.com/Tropix126/7fbf7d1b3ede557b76f3656db8af3fd3)
 - [Original Pilons Odometry Doccument](http://thepilons.ca/wp-content/uploads/2018/10/Tracking.pdf)
-- [Coding a Pid](https://www.vexforum.com/t/vexcode-pid-tutorial/73706)      Watching the video will give a good understanding of how to code a PID
+- [Coding a Pid](https://www.vexforum.com/t/vexcode-pid-tutorial/73706)
+  > Note that watching the video will give a good understanding of how to code a PID
 - [Tuning a PID and more PID explinations](https://wiki.purduesigbots.com/software/control-algorithms/pid-controller)
