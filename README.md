@@ -35,7 +35,7 @@ This was our first code that we have used this season, we have Jar template, and
 ## Strombol_Steaks
 This is the simpler version of StrombolStakes, the only real difference in what is in the codes is that we do not have gifDemo in this one. We have also tried to simplify the code as much as possible
 
-#Reference Doccuments to learn about what we have
+# Reference Doccuments to learn about what we have
 - [Odometry Math](https://wiki.purduesigbots.com/software/odometry)
 - [Coding Odometry](https://gist.github.com/Tropix126/7fbf7d1b3ede557b76f3656db8af3fd3)
 - [Original Pilons Odometry Doccument](http://thepilons.ca/wp-content/uploads/2018/10/Tracking.pdf)
