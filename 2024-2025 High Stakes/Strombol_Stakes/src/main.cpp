@@ -44,10 +44,10 @@ ZERO_TRACKER_ODOM,
 //You will input whatever motor names you chose when you configured your robot using the sidebar configurer, they don't have to be "Motor1" and "Motor2".
 
 //Left Motors:
-motor_group(TL, BL),
+motor_group(TL, ML, BL),
 
 //Right Motors:
-motor_group(TR, BR),
+motor_group(TR, MR, BR),
 
 //Specify the PORT NUMBER of your inertial sensor, in PORT format (i.e. "PORT1", not simply "1"):
 PORT11,
@@ -62,7 +62,7 @@ PORT11,
 
 //Gyro scale, this is what your gyro reads when you spin the robot 360 degrees.
 //For most cases 360 will do fine here, but this scale factor can be very helpful when precision is necessary.
-361.89,
+359.33,
 
 /*---------------------------------------------------------------------------*/
 /*                                  PAUSE!                                   */
@@ -131,27 +131,36 @@ void pre_auton() {
     switch(current_auton_selection){
       case 0:
         Brain.Screen.printAt(5, 140, "Red Positive");
+        imu.calibrate();
         break;
       case 1:
         Brain.Screen.printAt(5, 140, "Red Negative");
+        imu.calibrate();
         break;
       case 2:
         Brain.Screen.printAt(5, 140, "Blue Positive");
+        imu.calibrate();
         break;
       case 3:
         Brain.Screen.printAt(5, 140, "Blue Negative");
+        imu.calibrate();
         break;
       case 4:
         Brain.Screen.printAt(5, 140, "Skills");
+        imu.calibrate();
         break;
+      case 5:
+        Brain.Screen.printAt(5, 140, "Donuts");
+        Brain.Screen.printAt(5, 160, "DO NOT RUN IN AN ACTUAL MATCH");
+        imu.calibrate();
     }
     if(Brain.Screen.pressing()){
       while(Brain.Screen.pressing()) {}
       current_auton_selection ++;
-    } else if (current_auton_selection == 5){
+    } else if (current_auton_selection == 6){
       current_auton_selection = 0;
     }
-    task::sleep(10);
+    task::sleep(20);
   }
 }
 
@@ -184,6 +193,8 @@ void autonomous(void) {
     case 4:
       skills();
       break;
+    case 5:
+      donuts();
  }
 }
 
